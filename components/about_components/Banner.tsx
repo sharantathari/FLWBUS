@@ -19,7 +19,7 @@ export default function Banner() {
                   <h4 className="use-text-title2">About Us </h4>
                 </div>
                 <h5 className="use-text-subtitle2">
-                  Edodwaja Pvt.Ltd provides practical education to students so
+                    practical education to students so
                   that they can get an understanding about the latest
                   technologies and find their purpose of education for their
                   future goal.{" "}

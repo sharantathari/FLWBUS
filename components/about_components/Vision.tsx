@@ -16,7 +16,7 @@ export default function Vision() {
                   <h4 className="use-text-title2">Vision </h4>
                 </div>
                 <h5 className="use-text-subtitle2">
-                  Edodwaja aims to help students discover themselves in their
+                    themselves in their
                   inner talent and excel in it. We will help to increase the
                   number of Innovators in our country and contribute our efforts
                   to make India reach a top position in the world{" "}

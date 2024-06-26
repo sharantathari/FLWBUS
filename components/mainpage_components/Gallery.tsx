@@ -1,4 +1,3 @@
-import Threed from "./Threed";
 
 export default function Gallery(){
     return (
@@ -7,7 +6,7 @@ export default function Gallery(){
         <h2 className="learn" style={{ marginBottom: 20, marginTop: 50 }}>
           Our{" "}
           <strong className="theme-gradient" id="practical">
-            Services
+            Services 
           </strong>
         </h2>
         <iframe

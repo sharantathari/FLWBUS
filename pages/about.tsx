@@ -1,11 +1,10 @@
-import Header from "@/components/common/Header";
-import Preloader from "@/components/common/Preloader";
-import MobileNav from "@/components/common/MobileNav";
 import Banner from "@/components/about_components/Banner";
+import Call from "@/components/about_components/CallAction";
 import Mission from "@/components/about_components/Mission";
 import Vision from "@/components/about_components/Vision";
-import Call from "@/components/about_components/CallAction";
 import Footer from "@/components/common/Footer";
+import Header from "@/components/common/Header";
+import MobileNav from "@/components/common/MobileNav";
 export default function about() {
   return (
     <>
