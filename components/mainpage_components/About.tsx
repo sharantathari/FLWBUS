@@ -31,7 +31,7 @@ export default function About() {
                       <span>About us</span>
                     </h4>
                     <p className="desc use-text-subtitle2">
-                      Edodwa education on latest
+                      Edodwaja  education on latest
                       technology to the creative minds through our concept Lab on
                       Wheels. We always focus on providing the right tech and
                       guidance for them in process of achieving their goals.

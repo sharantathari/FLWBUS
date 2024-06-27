@@ -1,1 +1,7 @@
-{"/api/hello":"pages/api/hello.js","/_app":"pages/_app.js","/_document":"pages/_document.js","/ai":"pages/ai.html","/aboutteam":"pages/aboutteam.html","/about":"pages/about.html","/blogs":"pages/blogs.html","/ar":"pages/ar.html","/blockchain":"pages/blockchain.html","/contact":"pages/contact.html","/blogs/read/[blogId]":"pages/blogs/read/[blogId].html","/_error":"pages/_error.js","/drone":"pages/drone.html","/cybersecurity":"pages/cybersecurity.html","/iot":"pages/iot.html","/educationsystem":"pages/educationsystem.html","/knowledgeGrade":"pages/knowledgeGrade.html","/ml":"pages/ml.html","/knowledgePotential":"pages/knowledgePotential.html","/login":"pages/login.html","/":"pages/index.html","/painting":"pages/painting.html","/products/blockchain":"pages/products/blockchain.html","/products/ai":"pages/products/ai.html","/planetarium":"pages/planetarium.html","/products":"pages/products.html","/products/cs":"pages/products/cs.html","/products/ml":"pages/products/ml.html","/products/vr":"pages/products/vr.html","/products/iot":"pages/products/iot.html","/vr":"pages/vr.html","/robotics":"pages/robotics.html","/products/robotics":"pages/products/robotics.html","/register":"pages/register.html","/web":"pages/web.html","/404":"pages/404.html"}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/blogs": "pages/blogs.js"
+}
