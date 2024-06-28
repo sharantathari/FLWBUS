@@ -1,9 +1,23 @@
 import React from 'react';
+import mobileLabImage from './image/mobilelab.jpg';
 
 const LandingPage: React.FC = () => {
     return (
         <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px' }}>
             <h1>Flow Bus: Futuristic Lab on Wheels</h1>
+            <div
+                style={{
+                    backgroundImage: `url(${mobileLabImage})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    width: '100%',
+                    height: 'auto',
+                    paddingTop: '56.25%', // 16:9 aspect ratio
+                    borderRadius: '8px',
+                    margin: '20px 0'
+                }}
+                alt="Flow Bus - Futuristic Lab on Wheels"
+            />
             <p>
                 Welcome to Edodwaja’s “Futuristic Lab On Wheels,” a cutting-edge mobile laboratory designed to bring modern technology directly to students. Our Flow Bus is equipped with the latest technological devices and gadgets, providing a practical and engaging learning experience for students in schools, colleges, and communities.
             </p>
