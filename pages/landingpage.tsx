@@ -1,5 +1,5 @@
 import React from 'react';
-import mobileLabImage from ./Downloads\GreenHomePlantPhotoCollage.jpg;
+import mobileLabImage from '/greenhomeplant.png';
 
 const LandingPage: React.FC = () => {
     return (
