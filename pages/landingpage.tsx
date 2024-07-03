@@ -1,5 +1,5 @@
 import React from 'react';
-import mobileLabImage from './image/mobilelab.jpg';
+import mobileLabImage from ./Downloads\GreenHomePlantPhotoCollage.jpg;
 
 const LandingPage: React.FC = () => {
     return (
@@ -12,7 +12,7 @@ const LandingPage: React.FC = () => {
                     backgroundPosition: 'center',
                     width: '100%',
                     height: 'auto',
-                    paddingTop: '56.25%', // 16:9 aspect ratio
+                    paddingTop: '56.25%', 
                     borderRadius: '8px',
                     margin: '20px 0'
                 }}

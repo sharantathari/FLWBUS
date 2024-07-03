@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India's First Futuristic Lab On Wheels</title>
+    <!-- <link rel="stylesheet" href="./assets/css/styles.css"> -->
+</head>
+
+<style>
+    .theme-gradient {
+        background: linear-gradient(
+        90deg,
+        var(--color-primary),
+        var(--color-secondary)
+        );
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
+    }
+body {
+    /* CSS Variables that may have been missed get put on body */
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+}
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+   body {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.5;
+    color: white;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative; /* Changed from 'fixed' to 'relative' for better scrolling */
+  }
+  
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  
+:root {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --color-primary: #00ecfd;
+    --color-secondary: #0f6fc9;
+    }
+  
+  @media (prefers-reduced-motion:
+  h2  no-preference) {
+    :root {
+      scroll-behavior: smooth;
+    }
+  }
+
+  @media (prefers-reduced-motion:
+  h2  no-preference) {
+    :root {
+      scroll-behavior: auto;
+    }
+  }
+
+  *,
+  :after,
+  :before {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+  }
+  
+  .row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+  }
+  
+  .text-center {
+    text-align: center !important;
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  
+  h2 {
+    font-size: calc(1.325rem + .9vw);
+  }
+  
+  
+  /* Responsive Typography */
+  @media (max-width: 599px) {
+    h2 {
+      font-size: 16px; /* Adjusted for smaller screens */
+    }
+  }
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: smaller; /* Adjust the font size for small screens */
+  }
+}
+
+  @media (min-width: 1200px) {
+    h2 {
+      font-size: 32px; /* Adjusted for larger screens */
+    }
+  }
+  
+  h2 {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    word-break: break-word;
+    font-family: var(--font-secondary);
+    line-height: 1.4074;
+    color: var(--color-heading);
+  }
+  
+  h2 {
+    font-size: var(--h2);
+    line-height: 1.23;
+  }
+  
+  h2 {
+    font-weight: var(--f-bold);
+  }
+  
+  .section-title .title {
+    margin-bottom: 0;
+  }
+  
+  .mt--50 {
+    margin-top: 50px !important;
+  }
+  
+  .mb--150 {
+    margin-bottom: 150px !important;
+  }
+  
+  .has-section-before-title {
+    position: relative;
+    z-index: 1;
+  }
+  
+  @media (min-width: 
+  h2 992px) {
+    .col-lg-10 {
+      flex: 0 0 auto;
+      width: 83.33333333%;
+    }
+  
+    .offset-lg-1 {
+      margin-left: 8.33333333%;
+    }
+  }
+  
+  @media (min-width: 
+  h2 1200px) {
+    .col-xl-6 {
+      flex: 0 0 auto;
+      display: block;
+    }
+  
+    .offset-xl-3 {
+      margin-left: 25%;
+    }
+  }
+  
+  .plr--120 {
+    padding: 0 120px !important;
+  }
+  
+  .bg-gradient-6 {
+    background: #303030;
+  }
+  
+  .rbt-section-gap {
+    padding: 120px 0;
+  }
+  
+  .indicator-icon {
+    max-width: 60px;
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+    
+  p {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.45;
+    margin-bottom: 30px;
+  }
+  
+  .mt--20 {
+    margin-top: 20px !important;
+  }
+  
+  p.has-medium-font-size {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  
+  .section-title.text-center .description {
+    padding: 0 23%;
+    letter-spacing: -0.5px;
+  }
+  
+  .section-title.text-center .description.has-medium-font-size {
+    padding: 0 23%;
+    letter-spacing: -0.5px;
+  }
+  
+  .home-demo-area .section-title .description.has-medium-font-size {
+    padding: 0 15%;
+  }
+  
+ .theme-gradient {
+    font-size: 60px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; /* Changed for better visibility */
+  }
+  
+  .theme-gradient.new-big-heading-gradient {
+    background: linear-gradient(180deg, #797979 0%, rgba(57, 78, 244, 0.03) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
+    white-space: nowrap;
+  }
+  
+  .has-section-before-title .section-before-title {
+    position: absolute;
+    color: var(--color-grey2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+    font-size: 650px;
+    font-weight: 700;
+    line-height: 0.8em;
+    margin-top: -30px;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .edu_bounce_loop {
+    will-change: transform;
+    -webkit-animation-name: edu_bounce_loop;
+    animation-name: edu_bounce_loop;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+  
+  
+  @keyframes edu_bounce_loop {
+    0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      transform: translateY(0px);
+    }
+  
+    50% {
+      -webkit-transform: translateY(20%);
+      transform: translateY(20%);
+      transform: translateY(20%);
+    }
+  
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      transform: translateY(0px);
+    }
+  
+  }
+  .rbt-display-1{
+    font-weight: 650;
+  }
+
+  @media (max-width:599px)
+  h2 {
+    width:90%;
+    font-size: 12px;
+    line-height: 1.375;
+  }
+  @media (max-width:340px)
+  h2{
+    width:50%;
+    font-size:21px;
+  }
+
+</style>
+<body>
+    <section>
+        <div
+        class="home-demo-area rbt-section-gap bg-gradient-6 splash-masonary-wrapper-activation snipcss-LHrfV">
+        <div class="wrapper plr--120 plr_lg--30 plr_md--30 plr_sm--30 plr_mobile--15">
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1 col-xl-6 offset-xl-3">
+                <div
+                class="section-title text-center has-section-before-title mb--150 mt--50 mb_lg--100 mb_md--100 mb_sm--100">
+                <h2 class="rbt-display-1 theme-gradient">
+                    India's First Futuristic <br>Lab On Wheels
+                </h2>
+                <h3 class="title">
+                    <span class="heading-opacity"> Our Futuristic Lab On Wheels brings forward the opportunity to surround yourself <br> with technically well equipped world,  where you can interact to improve to innovate.</span>
+                </h3>
+                <div class="indicator-icon">
+                    <img class="edu_bounce_loop" src="https://freesvg.org/img/kuba_arrow_button_set_4.png"
+                    alt="arrow down icon">
+                </div>
+                <p class="description has-medium-font-size mt--20">
+                    Register and Explore Bus today
+                </p>
+                <div class="section-before-title theme-gradient new-big-heading-gradient">
+                    1
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+</html>

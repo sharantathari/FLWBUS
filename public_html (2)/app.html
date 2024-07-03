@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="styles.css">
+<style>
+
+    app-section {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: rgb(33, 37, 41);
+        text-align: left;
+    }
+
+    app-section {
+        /* CSS Variables that may have been missed get put on app-section */
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    app-section {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.5;
+        color: rgb(33, 37, 41);
+        background-color: rgb(255, 255, 255);
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    app-section {
+        overflow-x: hidden;
+    }
+
+    app-section {
+        color: rgb(123, 123, 123);
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    :root {
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        :root {
+            scroll-behavior: smooth;
+        }
+    }
+
+    .about-section {
+        background-image: url(https://html.ditsolution.net/drtheme/dreamhub/dreamhub-app/assets/images/resource/about-bg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover contain;
+        padding: 60px 0;
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+    }
+
+    *,
+    :after,
+    :before {
+        box-sizing: border-box;
+    }
+
+    :selection {
+        background: rgb(79, 193, 240);
+        color: rgb(69, 69, 69);
+        text-shadow: none;
+    }
+
+    .container {
+        width: 100%;
+        padding-right: var(--bs-gutter-x, .75rem);
+        padding-left: var(--bs-gutter-x, .75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+        .container {
+            max-width: 540px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            max-width: 720px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            max-width: 960px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1140px;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .container {
+            max-width: 1320px;
+        }
+    }
+
+    .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y) * -1);
+        margin-right: calc(var(--bs-gutter-x) * -.5);
+        margin-left: calc(var(--bs-gutter-x) * -.5);
+    }
+
+    .row>* {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+
+    @media (min-width: 992px) {
+        .col-lg-6 {
+            flex: 0 0 auto;
+            width: 50%;
+        }
+    }
+
+    .fadeInUp {
+        -webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp;
+    }
+
+    .animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
+    .fadeInRight {
+        -webkit-animation-name: fadeInRight;
+        animation-name: fadeInRight;
+    }
+
+    .about-title {
+        padding: 65px 0 0;
+    }
+
+    .fadeInLeft {
+        -webkit-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+    }
+
+    .about-disc2 {
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(16, 16, 16);
+    }
+
+    .fadeInDown {
+        -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+    }
+
+    img {
+        vertical-align: middle;
+    }
+
+    .about-title .number {
+        position: absolute;
+        font-size: 150px;
+        font-weight: bold;
+        opacity: 0.09;
+        right: 495px;
+        top: 80px;
+        display: inline-block;
+    }
+
+    h5 {
+        margin-top: 0;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    h5 {
+        font-size: 1.25rem;
+    }
+
+    h5 {
+        color: rgb(16, 18, 16);
+        font-style: normal;
+        margin-bottom: 0;
+        margin-top: 11px;
+        line-height: 1.2;
+        font-weight: 600;
+        -webkit-transition: .5s;
+        transition: .5s;
+        font-size: 36px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    .about-title h5 {
+        display: inline-block;
+        position: relative;
+        color: rgb(83, 62, 254);
+        font-size: 17px;
+        font-weight: 600;
+        text-transform: uppercase;
+        background: linear-gradient(to right, #1100ff 0%, rgb(222, 81, 247) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    h3 {
+        font-size: calc(1.3rem + .6vw);
+    }
+
+    @media (min-width: 1200px) {
+        h3 {
+            font-size: 1.75rem;
+        }
+    }
+
+    h3 {
+        color: rgb(16, 18, 16);
+        font-style:bold;
+        margin-bottom: 0;
+        margin-top: 11px;
+        line-height: 1.2;
+        font-weight: 600;
+        -webkit-transition: .5s;
+        transition: .5s;
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .about-title h3 {
+        color: #0011ff;
+        font-size: 42px;
+        font-weight: normal;
+        margin: 13px 0 23px;
+        line-height: 1.2;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .about-disc p {
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(16, 16, 16);
+    }
+
+    a {
+        color: rgb(13, 110, 253);
+        text-decoration: underline;
+    }
+
+    a {
+        -webkit-transition: all 0.3s ease-out 0s;
+        transition: all 0.3s ease-out 0s;
+    }
+
+    a {
+        color: rgb(16, 16, 16);
+        text-decoration: none;
+    }
+
+    a {
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    a {
+        background-color: transparent;
+    }
+
+    .about-button a {
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 500;
+        background: linear-gradient(90deg, rgb(115, 71, 242) 0%, rgb(238, 83, 248) 100%);
+        box-shadow: 0px 15px 50px 0px rgba(0, 0, 0, 0.30);
+        padding: 17px 50px;
+        border-radius: 30px;
+        margin: 20px 0 0;
+    }
+
+    a:hover {
+        color: rgb(10, 88, 202);
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: rgb(16, 16, 16);
+    }
+
+    .about-button a:hover {
+        color: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgb(238, 83, 248) 0%, rgb(115, 71, 242) 100%);
+    }
+
+    .about-title h3 span {
+        color: #005eff;
+        font-weight: 600;
+    }
+
+    .about-button a span {
+        margin-left: 5px;
+    }
+
+    i {
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .fas {
+        -moz-osx-font-smoothing: rgb(128, 128, 128)scale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+
+    .fas {
+        font-weight: 900;
+    }
+
+    .fa-phone-alt:before {
+        content: "\f879";
+    }
+
+
+    @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            -webkit-transform: translate3d(0, 50%, 0);
+            transform: translate3d(0, 50%, 0);
+            opacity: 0;
+            transform: translate3d(0px, 50%, 0px);
+        }
+
+        100% {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            opacity: 1;
+            transform: translate3d(0px, 0px, 0px);
+        }
+
+    }
+
+    @keyframes fadeInRight {
+        0% {
+            opacity: 0;
+            -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+            opacity: 0;
+            transform: translate3d(100%, 0px, 0px);
+        }
+
+        100% {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            opacity: 1;
+            transform: translate3d(0px, 0px, 0px);
+        }
+
+    }
+
+    @keyframes fadeInLeft {
+        0% {
+            opacity: 0;
+            -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+            opacity: 0;
+            transform: translate3d(-100%, 0px, 0px);
+        }
+
+        100% {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            opacity: 1;
+            transform: translate3d(0px, 0px, 0px);
+        }
+
+    }
+
+    @keyframes fadeInDown {
+        0% {
+            opacity: 0;
+            -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+            opacity: 0;
+            transform: translate3d(0px, -100%, 0px);
+        }
+
+        100% {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            opacity: 1;
+            transform: translate3d(0px, 0px, 0px);
+        }
+
+    }
+
+    /* These were inline style tags. Uses id+class to override almost everything */
+    #style-LVoPz.style-LVoPz {
+        visibility: visible;
+        animation-name: fadeInUp;
+    }
+
+    #style-ebSVK.style-ebSVK {
+        visibility: visible;
+        animation-name: fadeInRight;
+    }
+
+    #style-Z6Tkg.style-Z6Tkg {
+        visibility: visible;
+        animation-name: fadeInLeft;
+    }
+
+    #style-zocJK.style-zocJK {
+        visibility: visible;
+        animation-name: fadeInLeft;
+    }
+
+    #style-IQ1Rc.style-IQ1Rc {
+        visibility: visible;
+        animation-name: fadeInDown;
+    }
+
+    .android{
+        cursor: pointer;
+    }
+    .apple{
+        cursor: pointer;
+    }
+
+</style>
+
+<body>
+    <div class="about-section snipcss-F8oKS" id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-thumb wow fadeInUp animated animated style-LVoPz" id="style-LVoPz">
+                        <img src="./assets/images/updated/Mobile.png" style="height: 520px; width:auto; background:no-repeat" 
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-title wow fadeInRight animated animated style-ebSVK" id="style-ebSVK">
+
+                        <h5>
+                            Learn in new way
+                        </h5>
+                        <h3>
+                            <span>
+                                Download
+                            </span>
+                            Our App now!
+                        </h3>
+                    </div>
+                    <div class="about-disc wow fadeInLeft animated animated style-Z6Tkg" id="style-Z6Tkg">
+                        <p>
+                            The Edodwaja app is a comprehensive platform offering technical courses in AR, VR, robotics, drones, and more. It features an innovative AR mobile lab experience, enabling students to engage in hands-on learning. Users can undertake challenges to build their own tech projects, earn certificates, access detailed tutorials, and purchase project components online.
+                        </p>
+                    </div>
+                    <div class="about-disc2 wow fadeInLeft animated animated style-zocJK" id="style-zocJK">
+                        <p>
+                            What are you waiting for
+                            <br>
+                            Install Right Now
+                        </p>
+
+                        <div class="download-app" style="width: 100%; height:100%">
+                                <img src="https://cn.maplesoft.com/products/MapleCalculator/images/app-store-icons-google-play.png" alt="www.edodwaja.com" height="90px" class="android">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/800px-Download_on_the_App_Store_Badge.svg.png" alt="www.edodwaja.com" height="50px" class="apple">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Flow Bus">
+  <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"><!-- Favicon-->
+  <link rel="shortcut icon" href="./assets/images/updated/infinity-fav-icon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/updated/infinity-fav-icon.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/updated/infinity-fav-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/updated/infinity-fav-icon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/updated/infinity-fav-icon.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/updated/infinity-fav-icon.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/updated/infinity-fav-icon.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/updated/infinity-fav-icon.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/updated/infinity-fav-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/updated/infinity-fav-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/updated/infinity-fav-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/updated/infinity-fav-icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/updated/infinity-fav-icon.png">
+  <!-- <link rel="manifest" href="./assets/favicons/manifest.json"> -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./assets/images/updated/infinity-fav-icon.png"><!-- PWA primary color-->
+  <meta name="theme-color" content="#00BCD4">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"><!-- Facebook-->
+  <meta property="author" content="Edodwaja Pvt Ltd">
+  <meta property="og:site_name" content="https://www.flowbus.in/blog">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website"><!-- Twitter-->
+  <meta property="og:title" content="Edodwaja Blogs: Your Source for EdTech Insights">
+  <meta property="og:description" content="Stay updated with the latest trends in educational technology with Edodwaja's insightful blogs on AR, VR, IoT, and more.">
+  <meta property="og:image" content="https://www.flowbus.com/images/blog-og-image.jpg">
+  <meta property="og:url" content="https://www.flowbus.com/blogs">
+    <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <title>Blogs | Flow Bus</title><!-- Styles-->
+  <!-- Put the 3rd/plugins css here-->
+  <link href="./assets/css/vendors/normalize.css" rel="stylesheet">
+  <link href="./assets/css/vendors/bootstrap.css" rel="stylesheet">
+  <link href="./assets/css/vendors/magnific-popup.css" rel="stylesheet">
+  <link href="./assets/css/vendors/materialize.css" rel="stylesheet">
+  <link href="./assets/css/vendors/hamburger-menu.css" rel="stylesheet">
+  <link href="./assets/css/vendors/animate.css" rel="stylesheet">
+  <link href="./assets/css/vendors/animate-extends.css" rel="stylesheet">
+  <link href="./assets/css/vendors/slick-carousel/slick.css" rel="stylesheet">
+  <link href="./assets/css/vendors/slick-carousel/slick-theme.css" rel="stylesheet">
+  <link href="./assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="preloader"
+    style="position: fixed; z-index: 10000; background: #000000; top: 0; left: 0; right: 0; bottom: 0; display: flex; justify-content: center; align-items: center;">
+    <img style="opacity: 0.9; width: 200px; height: 200px;" src="./assets/images/edodwaja-loading.gif" alt="loading">
+  </div>
+  <div class="m-application theme--dark transition-page" id="app">
+    <div class="loading"></div>
+    <div class="m-content smart smart-var" id="main-wrap">
+      <div id="blog-page">
+        <div class="main-wrap">
+          <!-- #### HEADER ####-->
+          
+<div class="sidenav mobile-nav" id="slide_menu">
+            <div class="side-multilv">
+              <div class="collection side-multilv">
+                <ul class="collapsible expandable">
+                  <li class="collection-item"><a class="sidenav-close waves-effect menu-list" href="./index.html">Home</a></li>
+                  <li class="collection-item"><a class="sidenav-close waves-effect menu-list" href="#popular">popular course</a></li>
+                  <li class="collection-item"><a class="sidenav-close waves-effect menu-list" href="#explore">explore</a></li>
+                  <li class="collection-item"><a class="sidenav-close waves-effect menu-list" href="./blog.html">blog</a></li>
+                  <li class="collection-item group-child has-child">
+                    <div class="collapsible-header">
+                      <a class="waves-effect text-truncate menu-list" href="#!">
+                        inner Page
+                        <i class="material-icons right">keyboard_arrow_down</i>
+                      </a>
+                    </div>
+                    <div class="collapsible-body">
+                      <div class="collection side-group">
+                        <ul class="group-child">
+                          <li class="collection-header">
+                            <div class="title-mega">Company</div>
+                          </li>
+                          <li class="collection-item side-group-link">
+                            <a class="waves-effect text-truncate menu-list current" href="about.html">about</a>
+                          </li>
+                          <li class="collection-item side-group-link">
+                            <a class="waves-effect text-truncate menu-list" href="about-team.html">team</a>
+                          </li>
+                          <li class="collection-item side-group-link">
+                            <a class="waves-effect text-truncate menu-list" href="blog.html">blog</a>
+                          </li>
+                        </ul>
+                        <ul class="group-child">
+                          <li class="collection-header">
+                            <div class="title-mega">Form</div>
+                          </li>
+                          <li class="collection-item side-group-link">
+                            <a class="waves-effect text-truncate menu-list" href="login.html">login</a>
+                          </li>
+                          <li class="collection-item side-group-link">
+                            <a class="waves-effect text-truncate menu-list" href="register.html">register</a>
+                          </li>
+                          <li class="collection-item side-group-link">
+                            <a class="waves-effect text-truncate menu-list" href="contact-map.html">contact map</a>
+                          </li>
+                        </ul>
+                        <ul class="group-child">
+                          <li class="collection-header">
+                            <div class="title-mega">Items</div>
+                          </li>
+                          <li class="collection-item side-group-link">
+                            <a class="waves-effect text-truncate menu-list" href="products.html">product detail</a>
+                          </li>
+                          
+                          <li class="collection-item side-group-link">
+                            <a class="waves-effect text-truncate menu-list" href="https://edodwaja.com/the-courses">Courses</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="dropdown-divider"></div>
+              <div class="collection">
+                <ul>
+                  <li class="collection-item">
+                    <a class="sidenav-close waves-effect menu-list" href="login.html">Login</a>
+                  </li>
+                  <li class="collection-item">
+                    <a class="sidenav-close waves-effect menu-list" href="register.html">register</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <header class="app-bar header" id="header">
+            <div class="container">
+              <div class="header-content">
+                <nav class="nav-menu">
+                  <button class="btn-icon waves-effect sidenav-trigger hamburger hamburger--spin show-md-down" id="mobile_menu" type="button" data-target="slide_menu"><span class="hamburger-box"><span class="bar hamburger-inner"></span></span></button>
+                  <div class="logo">
+                    <a href="index.html">
+                      <span class="logo-main landscape medium"><img src="./assets/images/updated/flow-logo.svg" alt="logo"/></span>
+                    </a>
+                  </div>
+                  <div class="scrollactive-nav scrollnav show-lg-up multi-menu">
+                    <ul class="main-menu">
+                      <li>
+                        <a class="btn btn-flat anchor-link waves-effect" href="index.html#feature">main feature</a>
+                      </li>
+                      <li>
+                        <a class="btn btn-flat anchor-link waves-effect" href="index.html#popular">popular course</a>
+                      </li>
+                      <li>
+                        <a class="btn btn-flat anchor-link waves-effect" href="index.html#explore">explore</a>
+                      </li>
+                      <li>
+                        <a class="btn btn-flat anchor-link waves-effect" href="./blog.html">blog</a>
+                      </li>
+                      <li>
+                        <button class="btn btn-flat megamenu-trigger-click waves-effect" data-target="sample-page">
+                          inner Page
+                          <i class="material-icons right icon">keyboard_arrow_down</i>
+                        </button>
+                        <div class="mega-menu-root dropdown-content" id="sample-page">
+                          <div class="mega-menu">
+                            <div class="container max-md">
+                              <div class="row">
+                                <div class="col-sm-3 mb-6">
+                                  <div class="title-mega">Company</div>
+                                  <img class="thumb-menu" src="./assets/images/education/menu_marketing@2x.jpg" alt="thumbnail" />
+                                  <ul>
+                                    <li class="waves-effect"><a class="menu-list current" href="about.html">about</a></li>
+                                    <li class="waves-effect"><a class="menu-list" href="about-team.html">team and culture</a></li>
+                                    <li class="waves-effect"><a class="menu-list" href="blog.html">blog home</a></li>
+                                  </ul>
+                                </div>
+                                <div class="col-sm-3 mb-6">
+                                  <div class="title-mega">Form</div>
+                                  <img class="thumb-menu" src="./assets/images/education/menu_education@2x.jpg" alt="thumbnail" />
+                                  <ul>
+                                    <li class="waves-effect"><a class="menu-list" href="login.html">login</a></li>
+                                    <li class="waves-effect"><a class="menu-list" href="register.html">register</a></li>
+                                    <li class="waves-effect"><a class="menu-list" href="contact-map.html">contact with map</a></li>
+                                  </ul>
+                                </div>
+                                <div class="col-sm-3 mb-6">
+                                  <div class="title-mega">Items</div>
+                                  <img class="thumb-menu" src="./assets/images/education/menu_pos@2x.jpg" alt="thumbnail" />
+                                  <ul>
+                                    <li class="waves-effect"><a class="menu-list" href="products.html">product with filter</a></li>
+                                    <li class="waves-effect"><a class="menu-list" href="https://edodwaja.com/the-courses/">Courses</a></li>
+                                  </ul>
+                                </div>
+                                <div class="col-sm-3 mb-6">
+                                  <div class="title-mega">Utilities</div>
+                                  <img class="thumb-menu" src="./assets/images/education/menu_saas2@2x.jpg" alt="thumbnail" />
+                                  <ul>
+                                    <li class="waves-effect"><a class="menu-list" href="pricing.html">pricing and faq</a></li>
+                                    <li class="waves-effect"><a class="menu-list" href="faq.html">frequently answer &amp; questions</a></li>
+                                    <li class="waves-effect"><a class="menu-list" href="maintenance.html">maintenance</a></li>
+                                    <li class="waves-effect"><a class="menu-list" href="coming-soon.html">coming soon</a></li>
+                                    <li class="waves-effect"><a class="menu-list" href="404.html">error not found</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <nav class="user-menu">
+                    <a class="btn btn-flat waves-effect show-sm-up" href="login.html">Login</a>
+                    <a class="btn waves-effect primary show-sm-up" href="register.html">register</a>
+                    <span class="spacer vertical-divider show-lg-up"></span>
+                    <!--<div class="menu-setting">-->
+                    <!--  <div class="setting">-->
+                    <!--    <button class="btn btn-icon waves-effect btn-small dropdown-trigger ma-1" data-target="dropdown_config" data-align="left" type="button">-->
+                    <!--      <i class="icon material-icons" id="setting_icon">settings</i>-->
+                    <!--    </button>-->
+                    <!--    <div class="dropdown-content setting" id="dropdown_config">-->
+                    <!--      <ul class="collection with-header">-->
+                    <!--        <li class="collection-header">theme mode</li>-->
+                    <!--        <li class="collection-item no-hover pl-4">-->
+                    <!--          <div class="flex-menu">-->
+                    <!--            <div class="switch">-->
+                    <!--              <label>-->
+                    <!--                light-->
+                    <!--                <input id="theme_switcher" type="checkbox"><span class="lever"></span>-->
+                    <!--                dark-->
+                    <!--              </label>-->
+                    <!--            </div>-->
+                    <!--          </div>-->
+                    <!--        </li>-->
+                    <!--      </ul>-->
+                    <!--      <div class="dropdown-divider"></div>-->
+
+                    <!--    </div>-->
+                    <!--  </div>-->
+                    <!--</div>-->
+                  </nav>
+                </nav>
+                <div id="container_menu"></div>
+              </div>
+            </div>
+          </header><!-- #### END HEADER ####-->
+          <div class="container-general">
+            <div class="container mt-12 mt-sm-0">
+              <div class="row">
+
+                <!-- ##### HEADLINE #####-->
+                <div class="col-sm-12 px-0 px-sm-3">
+                  <div class="blog-style">
+                    <div class="card blog-headline">
+                      <div class="card-image">
+                        <div class="responsive-img waves-effect white--text align-end" style="background-image: url(data:image/png;base64,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)"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- ##### END HEADLINE #####-->
+
+                <!--<div class="row mt-6">-->
+                  <!-- ##### BLOG POST #####-->
+                <div class="row justify-content-center">
+                  <!-- <div class="col-md-14 px-0 px-sm-4"> -->
+                    <div class="mt-12 pt-3">
+                      <div class="card post-card portrait round">
+                        <div class="card-image figure">
+                          <div class="responsive-img" style="background-image:url(https://img.freepik.com/free-vector/webinar-internet-lesson-distance-university-tutor-educator-online-learning-seniors-online-courses-seniors-additional-education-concept_335657-681.jpg);"></div>
+                        </div>
+                        <div class="properties">
+                          <div class="use-text-subtitle2 text-truncate">
+                            <strong>Importance of Practical Learning</strong>
+                          </div>
+                          <div class="caption py-4">12 Nov 2021</div>
+                          <div class="card-content desc">
+                            <p>There lived a boy named Haneesh in a well-known city, who is studying 5th standard in an XYZ school. He goes regularly to school, attends classes and he is getting good grades in every standard. After school hours, Haneesh plays with his friends and sometimes also plays with electronic gadgets.</p>
+                          </div>
+                          <div class="card-action">
+                            <a class="btn btn-outlined primary action-btn waves-effect" href="Importance-of-Practical Learning.html">read more</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mt-12 pt-3" data-index="1">
+                      <div class="card post-card portrait round">
+                        <div class="card-image figure">
+                          <div class="responsive-img" style="background-image:url(https://img.freepik.com/free-vector/flat-illustration-knowledge-day-celebration_23-2150671900.jpg);"></div>
+                        </div>
+                        <div class="properties">
+                          <div class="use-text-subtitle2 text-truncate">
+                            <strong>Things that student can do| Edodwaja</strong>
+                          </div>
+                          <div class="caption py-4">12 Nov 2021</div>
+                          <div class="card-content desc">
+                            <p>In schools, students are taught all the basic requirements to make a living. The students are not given an opportunity to explore new things in the class as they are only confined to the books.</p>
+                          </div>
+                          <div class="card-action">
+                            <a class="btn btn-outlined primary action-btn waves-effect" href="Things-that-student-can-do.html">read more</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mt-12 pt-3" data-index="1">
+                      <div class="card post-card portrait round">
+                        <div class="card-image figure">
+                          <div class="responsive-img" style="background-image:url(https://img.freepik.com/free-vector/modern-educationhttps://img.freepik.com/premium-vector/graduate-achievement-university-learning-education-vector-illustration_199064-362.jpg?size=626&ext=jpg&uid=R115369832&ga=GA1.1.2011221450.1694800750&semt=ais-concept-with-flat-design_23-2147904983.jpg?size=626&ext=jpg&uid=R115369832&ga=GA1.1.2011221450.1694800750&semt=ais);"></div>
+                        </div>
+                        <div class="properties">
+                          <div class="use-text-subtitle2 text-truncate">
+                            <strong>Edodwaja | Knowledge is Potential Power</strong>
+                          </div>
+                          <div class="caption py-4">12 Nov 2021</div>
+                          <div class="card-content desc">
+                            <p>We all know a famous quotation “Knowledge is power” but it is a wrong assumption. Knowledge is only potential power. It completely becomes power only when it is organized into definite plans of actions.</p>
+                          </div>
+                          <div class="card-action">
+                            <a class="btn btn-outlined primary action-btn waves-effect" href="Knowledge-is-Potential-Power.html">read more</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="mt-12 pt-3" data-index="2">
+                      <div class="card post-card portrait round">
+                        <div class="card-image figure">
+                          <div class="responsive-img" style="background-image:url(https://img.freepik.com/free-vector/learning-concept-illustration_114360-6186.jpg?size=626&ext=jpg&uid=R115369832&ga=GA1.1.2011221450.1694800750&semt=sph);"></div>
+                        </div>
+                        <div class="properties">
+                          <div class="use-text-subtitle2 text-truncate">
+                            <strong>EDODWAJA | Our First Step</strong>
+                          </div>
+                          <div class="caption py-4">12 Nov 2021</div>
+                          <div class="card-content desc">
+                            <p>Basic knowledge on emerging technologies is very important to today’s generation kids. Not every school is providing good practical knowledge for the students. They are simply following the guidelines from the higher officials. </p>
+                          </div>
+                          <div class="card-action">
+                            <a class="btn btn-outlined primary action-btn waves-effect" href="our-first-step.html">read more</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 pt-3" data-index="3">
+                      <div class="card post-card portrait round">
+                        <div class="card-image figure">
+                          <div class="responsive-img" style="background-image:url(https://img.freepik.com/free-vector/education-horizontal-typography-banner-set-with-learning-knowledge-symbols-flat-illustration_1284-29493.jpg?size=626&ext=jpg&uid=R115369832&ga=GA1.1.2011221450.1694800750&semt=ais);"></div>
+                        </div>
+                        <div class="properties">
+                          <div class="use-text-subtitle2 text-truncate">
+                            <strong>EDODWAJA | What is EDODWAJA? MISSION & VISION </strong>
+                          </div>
+                          <div class="caption py-4">12 Nov 2021</div>
+                          <div class="card-content desc">
+                            <p>Technology is transforming in today’s world at an alarming rate. As we see around us, we can observe that the technology around us has been changing into new forms and growing to new heights</p>
+                          </div>
+                          <div class="card-action">
+                            <a class="btn btn-outlined primary action-btn waves-effect" href="mission-vision.html">read more</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 pt-3" data-index="4">
+                      <div class="card post-card portrait round">
+                        <div class="card-image figure">
+                          <div class="responsive-img" style="background-image:url(https://img.freepik.com/free-vector/flat-creativity-concept-illustration_52683-64279.jpg?w=740&t=st=1697565170~exp=1697565770~hmac=8bc02dfaedb12a66e30a8f88b0b8c1beda579ac8418f0f56eebd109a258357ea);"></div>
+                        </div>
+                        <div class="properties">
+                          <div class="use-text-subtitle2 text-truncate">
+                            <strong>Knowledge cannot be judged by grades</strong>
+                          </div>
+                          <div class="caption py-4">12 Nov 2021</div>
+                          <div class="card-content desc">
+                            <p>A person who score’s less might have more knowledge than a top graded student in their class. Constantly calling him dumb or putting more pressure on the student might effect their logical thinking. </p>
+                          </div>
+                          <div class="card-action">
+                            <a class="btn btn-outlined primary action-btn waves-effect" href="knowledge-vs-grade.html">read more</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 pt-3" data-index="5">
+                      <div class="card post-card portrait round">
+                        <div class="card-image figure">
+                          <div class="responsive-img" style="background-image:url(https://img.freepik.com/free-vector/global-education-template-future-technology_53876-115358.jpg?w=996&t=st=1697565117~exp=1697565717~hmac=67dea6729487aec75b8e33208fd7097cccdeb2a879e28f8efe8258188e5f2ad2);"></div>
+                        </div>
+                        <div class="properties">
+                          <div class="use-text-subtitle2 text-truncate">
+                            <strong>What is lacking in Modern Education System?</strong>
+                          </div>
+                          <div class="caption py-4">12 Nov 2021</div>
+                          <div class="card-content desc">
+                            <p>Education is the backbone of any society. Without proper education, a society cannot progress. Education has been evolving since its inception.The traditional method of education has changed over the years, and now it has transformed into a modern education system. </p>
+                          </div>
+                          <div class="card-action">
+                            <a class="btn btn-outlined primary action-btn waves-effect" href="education-system.html">read more</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 pt-3" data-index="6">
+                      <div class="card post-card portrait round">
+                        <div class="card-image figure">
+                          <div class="responsive-img" style="background-image:url(https://img.freepik.com/free-vector/illustration-brainstorming_53876-37614.jpg?size=626&ext=jpg&uid=R115369832&ga=GA1.1.2011221450.1694800750&semt=ais);"></div>
+                        </div>
+                        <div class="properties">
+                          <div class="use-text-subtitle2 text-truncate">
+                            <strong>What is Brainstorming | Benefits</strong>
+                          </div>
+                          <div class="caption py-4">12 Nov 2021</div>
+                          <div class="card-content desc">
+                            <p>Brainstorming means a sudden idea or plan. Brain storm is to think about a problem and try to get solutions to that problem within involvement of your own or a group of people. Brainstorming brings informational approach to problem solving with lateral thinking. </p>
+                          </div>
+                          <div class="card-action">
+                            <a class="btn btn-outlined primary action-btn waves-effect" href="Brainstorming.html">read more</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--</div> ##### END BLOG POST #####-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ##### FOOTER #####-->
+          <div id="footer">
+            <footer class="footer-sitemap">
+              <div class="footer-bottom-deco">
+                <div class="left-deco">
+                  <img class="img-2d3d" src="./assets/images/education/footer_plant_3d@2x.png" data-2d="./assets" data-3d="./assets/images/education/footer_plant_3d@2x.png" alt="footer" />
+                </div>
+                <div class="right-deco">
+                  <img class="img-2d3d" src="./assets/images/education/footer_plant2_3d@2x.png" data-2d="./assets" data-3d="./assets/images/education/footer_plant2_3d@2x.png" alt="footer" />
+                </div>
+              </div>
+              <div class="container mq-sm-down" data-class="fixed-width">
+                <div class="row">
+                  <div class="col-md-3 pa-lg-4 logo-area">
+                    <div class="logo">
+                      <span class="logo-main landscape medium"><img src="./assets/images/updated/flow-logo.svg" alt="edodwaja-logo"/></span>
+                    </div>
+                    <p class="body-2">Anywhere, anytime. Start learning today! And Get an Exceptional Education Experience.</p>
+                    <p class="body-2 hidden-sm-down">&copy; Edodwaja Pvt Ltd</p>
+                  </div>
+                  <div class="col-md-6 pa-4">
+                    <ul class="show-sm-down collapsible">
+                      <li class="accordion-content">
+                        <div class="collapsible-header">
+                          <h6 class="title">Company</h6><i class="material-icons right arrow">expand_more</i>
+                        </div>
+                        <div class="collapsible-body">
+                          <ul>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#history">History</a></li>
+                            <li><a href="#contact-us">Contact us</a></li>
+                            <li><a href="#locations">Locations</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="accordion-content">
+                        <div class="collapsible-header">
+                          <h6 class="title">Resources</h6><i class="material-icons right arrow">expand_more</i>
+                        </div>
+                        <div class="collapsible-body">
+                          <ul>
+                            <li><a href="#resource">Resource</a></li>
+                            <li><a href="#resource-name">Resource name</a></li>
+                            <li><a href="#another-resource">Another resource</a></li>
+                            <li><a href="#final-resource">Final resource</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="accordion-content">
+                        <div class="collapsible-header">
+                          <h6 class="title">Legal</h6><i class="material-icons right arrow">expand_more</i>
+                        </div>
+                        <div class="collapsible-body">
+                          <ul>
+                            <li><a href="#privacy-policy">Privacy policy</a></li>
+                            <li><a href="#terms-of-use">Terms of use</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="row show-md-up justify-content-around">
+                      <div class="col pa-4 site-map-item">
+                        <h6 class="title mb-4">Company</h6>
+                        <ul>
+                          <li><a href="#team">Team</a></li>
+                          <li><a href="#history">History</a></li>
+                          <li><a href="#contact-us">Contact us</a></li>
+                          <li><a href="#locations">Locations</a></li>
+                        </ul>
+                      </div>
+                      <div class="col pa-4 site-map-item">
+                        <h6 class="title mb-4">Resources</h6>
+                        <ul>
+                          <li><a href="#resource">Resource</a></li>
+                          <li><a href="#resource-name">Resource name</a></li>
+                          <li><a href="#another-resource">Another resource</a></li>
+                          <li><a href="#final-resource">Final resource</a></li>
+                        </ul>
+                      </div>
+                      <div class="col pa-4 site-map-item">
+                        <h6 class="title mb-4">Legal</h6>
+                        <ul>
+                          <li><a href="#privacy-policy">Privacy policy</a></li>
+                          <li><a href="#terms-of-use">Terms of use</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 pa-4">
+                    <div class="socmed">
+                      <a class="btn btn-icon waves-effect" href="https://www.facebook.com/people/Edodwaja-Clairvoyance/"><span class="ion-social-facebook icon"></span></a>
+                    <a class="btn btn-icon waves-effect" href="https://twitter.com/edodwaja"><span class="ion-social-twitter icon"></span></a>
+                    <a class="btn btn-icon waves-effect" href="https://www.instagram.com/edodwaja/"><span class="ion-social-instagram icon"></span></a>
+                    <a class="btn btn-icon waves-effect" href="https://in.linkedin.com/company/edodwaja-the-real-education"><span class="ion-social-linkedin icon"></span></a>
+                    </div>
+                    <div class="select-lang select-outlined">
+                      
+                    </div>
+                    <p class="body-2 mt-5 text-center hidden-md-up">&copy; Nirwana Theme 2022</p>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </div><!-- ##### END FOOTER #####-->
+        </div>
+      </div>
+    </div>
+    
+    <!-- Scripts-->
+  <!-- Put the 3rd/plugins javascript here-->
+  <script src="./assets/js/vendors/jquery.min.js"></script>
+  <script src="./assets/js/vendors/bootstrap.min.js"></script>
+  <script src="./assets/js/vendors/enquire.min.js"></script>
+  <script src="./assets/js/vendors/jquery.form-validator.min.js"></script>
+  <script src="./assets/js/vendors/jquery.touchSwipe.min.js"></script>
+  <script src="./assets/js/vendors/jquery.magnific-popup.min.js"></script>
+  <script src="./assets/js/vendors/pace.min.js"></script>
+  <script src="./assets/js/vendors/slick.min.js"></script>
+  <script src="./assets/js/vendors/wow.min.js"></script>
+  <script src="./assets/js/vendors/jquery.navScroll.min.js"></script><!-- This assets are not avalaible in npm.js or it has been costumized-->
+  <script src="./assets/js/vendors/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="./assets/js/vendors/materialize.js"></script>
+  <script src="./assets/js/scripts.js"></script>
+  <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+</body>
+
+</html>
