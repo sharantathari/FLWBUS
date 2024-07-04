@@ -1,10 +1,14 @@
 import React from 'react';
-import mobileLabImage from '/greenhomeplant.png';
+import mobileLabImage from './publichtml/src/image/greenhomeplant.png';
+import CookieConsent from './CookieConsent';
+import Newsletter from './Newsletter';
+
 
 const LandingPage: React.FC = () => {
     return (
-        <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px' }}>
-            <h1>Flow Bus: Futuristic Lab on Wheels</h1>
+        <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px' }}>            <h1>Flow Bus: Futuristic Lab on Wheels</h1>
+            <CookieConsent />
+            <h1>Flow Bus: Futuristic Lab on Wheels</h1> 
             <div
                 style={{
                     backgroundImage: `url(${mobileLabImage})`,

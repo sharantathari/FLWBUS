@@ -1,6 +1,1 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/blog/[bid]/page": "app/blog/[bid]/page.js",
-  "/api/register/route": "app/api/register/route.js",
-  "/api/login/route": "app/api/login/route.js"
-}
+{}

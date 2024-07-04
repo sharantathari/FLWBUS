@@ -1,4 +1,5 @@
 import Link from "next/link"
+
 export default function Banner() {
     return (
         <section id="banner">
@@ -167,8 +168,20 @@ export default function Banner() {
                     </div>
                 </div>
             </div>
+            <section id="current-programs">
+                <div className="container">
+                    <h2>Current Programs That We’re Running</h2>
+                    <div className="feedback">
+                        <h3>Feedback of Students</h3>
+                        {/* Insert student feedback here */}
+                    </div>
+                    <div className="faces-of-organisation">
+                        <h3>Faces of the Organisation</h3>
+                        <p>Showing the prominent team members involved in teaching the curriculum</p>
+                        {/* Insert team member profiles here */}
+                    </div>
+                </div>
+            </section>
         </section>
-
-
     )
 }
